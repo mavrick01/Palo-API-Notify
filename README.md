@@ -10,7 +10,7 @@ Retrieve the lastest NGFW log files for a period via api
 
 options:
   -h, --help            show this help message and exit
-  --conf CONF           Enter the config file instead of line items. If parameters are entered it will look for a file named 'config'
+  --conf CONF           Enter the config file instead of line items. If no parameters are entered it will look for a file named 'config'
   -f Firewall, --firewall Firewall
                         firewall to access
   -u Username, --user Username
