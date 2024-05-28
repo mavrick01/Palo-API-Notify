@@ -43,7 +43,7 @@ def main():
     locallog.addHandler(ch)
 
     parser=argparse.ArgumentParser(description="Retrieve the lastest NGFW log files for a period via api")
-    parser.add_argument('--conf', action='append', help='Enter the config file instead of line items. If parameters are entered it will look for a fille named config')
+    parser.add_argument('--conf', action='append', help="Enter the config file instead of line items. If no parameters are entered it will look for a file named 'config'")
     parser.add_argument('-f','--firewall',metavar='Firewall',help='firewall to access')
     parser.add_argument('-u','--user',metavar='Username',help='Username to access')
     parser.add_argument('-p','--password',metavar='Password',help='Password for username')
