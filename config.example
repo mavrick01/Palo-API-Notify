@@ -1,0 +1,15 @@
+## This is an example config file
+firewall = "192.168.100.1"
+user = "admin"
+password = "admin"
+# apikey = "<SPECIAL API - THIS MAKES AUTHENTICATION FASTER>"
+# Set your Syslog Server. If you dot not configure this, then it will go to localhost - unless you are on a mac, then it does not work
+# syslog = "<Syslog Host>"
+# Set your SNMP Host. If you do not configure this, then SNMP Traps will not be sent. I have used the 'public' community string with SNMPv2c. 
+# snmphost = "<SNMP Host>"
+# Report up to Severity level [CRITICAL,ERROR,WARNING,INFO]
+level = "WARNING"
+# Maximum number of logs, you can leave this big as the filter will limit it. Only decrease this if you hit memory problems
+numlogs = 1000
+# How many minutes back to look at. This should align to your crontab timing
+timeframe = 5
